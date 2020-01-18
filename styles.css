@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   font-family: 'Courgette', cursive;
+  margin-top: 2%;
 }
 
 h3 {
@@ -67,6 +68,10 @@ h4 {
 }
 
 .amenities-section{
+  margin: 0px 5rem;
+}
+
+.spacesActivities-section {
   margin: 0px 5rem;
 }
 
