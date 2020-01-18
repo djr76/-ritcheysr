@@ -3,6 +3,14 @@ body{
   text-align: center;
 }
 
+p{
+  font-size: 1.23rem;
+}
+
+.list-group-item {
+  font-size: 1.23rem;
+}
+
 /* Headers */
 h1 {
   font-family: 'Ubuntu', sans-serif;
@@ -59,7 +67,7 @@ h4 {
 }
 
 .amenities-section{
-  /* margin: 0px 180px; */
+  margin: 0px 5rem;
 }
 
 .footer-section{
