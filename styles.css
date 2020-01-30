@@ -82,9 +82,9 @@ li{
 }
 
 
-/* Navebar-Section */
+/* Navbar-Section */
 .navbar-section{
-  background-color: #9CC3D5FF;
+  /* background-color: #9CC3D5FF; */
   margin-top: 7%;
 }
 
@@ -92,6 +92,15 @@ li{
   padding-left: 40px;
   padding-right: 40px;
   font-size: 1.23rem;
+}
+
+.navbar{
+  background-color: #9CC3D5FF;
+  color: black;
+}
+
+.nav-link{
+  color: black;
 }
 
 
