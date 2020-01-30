@@ -22,6 +22,7 @@
 
 <body>
 
+  <!-- Banner Section -->
   <section class="banner-section">
     <div class="banner-image">
       <div class="banner-text">
@@ -31,15 +32,56 @@
     </div>
   </section>
 
+
+  <!-- Navbar Section -->
+  <section class="navbar-section">
+    <div class="nav-container container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-md-flex d-block flex-row mx-sm-auto mx-0">
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Meet the Owners <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.funlake.com/?gclid=EAIaIQobChMIsYuSsbiq5wIVh7zACh3uhgGsEAAYASAAEgK6m_D_BwE" target="_blank">The Lake of the Osarks</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="tel:314-330-1290">314-330-1290</a>
+                  <a class="dropdown-item" href="mailto:ritcheytmj@att.net?subject=feedback">ritcheytmj@att.net</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+
+
+
+  <!-- Overview Section -->
   <section class="overview-section" id="ovSec">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-8">
-          <h2>Overview</h2>
-          <h4><b>1600 Sqft Condo </b> <br><br>  * 8 Guest <br> * 3 Bedrooms <br> * 3 Bathrooms</h4><hr>
-          <p>This condo is tastefully decorated and has:
-            <ul>
-              <li>A wonderful view of a beautiful cove with great views of the water and the changing seasons </li>
+      <div class="jumbotron">
+        <h2 class="headingsH2">Overview</h2>
+        <div class="row">
+          <div class="col-xl-8 col-lg-12">
+            <h4><b>1600 Sqft Condo </b> <br><br> * 8 Guest <br> * 3 Bedrooms <br> * 3 Bathrooms</h4>
+            <hr>
+            <p>This condo is tastefully decorated and has:</p>
+            <ul class="ov-lineItems">
+              <li>A wonderful view of a beautiful cove with great views of the water and the changing seasons. </li>
               <li>Our complex has great amenities that makes this a wonderful year round place to stay.</li>
               <li>We have an indoor and outdoor pool, steam room, and sauna all in our comfortable club house.</li>
               <li>Our condo is spacious and is ideal for family vacations, girls weekends, or golf getaways.</li>
@@ -49,47 +91,107 @@
               <li>The Lake Ozark area has many beautiful walking and hiking trails for everyone to enjoy.</li>
               <li>Our condo is a mile away from the Margaritaville at the Lake of the Ozarks.</li>
               <li>Our condo also has everything you need to relax and unwind and enjoy the beauty of the lake.</li>
-              <li>The wood burning fireplace is not to be used at this time. </p>
-          </li>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="overview-text">
-            <p class="p-overview">Contact to BOOK NOW</p>
-            <a class="ovBtn1 btn btn-warning btn-lg btn-block" href="tel:314-330-1290">Call Us</a>
-            <!-- <button type="button" class="btn btn-warning btn-lg btn-block">Call Us</button> -->
-            <br>
-            <a class="ovBtn2 btn btn-outline-warning btn-lg btn-block" href="mailto:ritcheytmj@att.net">Email</a>
-            <!-- <button type="button" class="btn btn-outline-warning btn-lg btn-block">Email</button> -->
+              <li>The wood burning fireplace is not to be used at this time.
+              </li>
+            </ul>
+          </div>
+          <div class="ovImg col-xl-4 col-lg-12" align="center">
+            <img class="ov-img" src="images/e.jpg" class="img">
+            <img class="ov-img" src="images/k.jpg" class="img">
+            <img class="ov-img" src="images/z.jpg" class="img">
           </div>
         </div>
       </div>
     </div>
-    <hr>
   </section>
 
-  <section class="gallary-section">
-    <h2>Gallary</h2>
+
+  <!-- Pricing Section -->
+  <section class="pricing-section">
+
+    <h2 class="pricingH2">Pricing</h2>
+    <p>2 Night Minimum</p>
+    <div class="price-row row">
+      <div class="pricing-column col-lg-4 md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Daily</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$175 / night</h2>
+            <p>2-6 Nights</p>
+            <p>Full Amenities</p>
+            <p>Book for a Week and Save</p>
+            <form class="formbtn">
+              <button class="btn btn-lg btn-block btn-outline-dark" formaction="tel:314-330-1290">Call Us</button>
+            </form>
+            <form class="formbtn">
+              <button class="btn btn-lg btn-block btn-dark" formaction="mailto:ritcheytmj@att.net?subject=feedback">Email</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Weekly</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$1050 / week</h2>
+            <p>7 Nights</p>
+            <p>Extra Savings</p>
+            <p>Last Night is FREE!</p>
+            <form class="formbtn">
+              <button class="btn btn-lg btn-block btn-dark" formaction="tel:314-330-1290">Call Us</button>
+            </form>
+            <form class="formbtn">
+              <button class="btn btn-lg btn-block btn-outline-dark" formaction="mailto:ritcheytmj@att.net?subject=feedback">Email</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Monthly</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$4725 / month</h2>
+            <p>30 days</p>
+            <p>Ultimate Savings</p>
+            <p>3 Nights are FREE!</p>
+            <form class="formbtn">
+              <button class="btn btn-lg btn-block btn-outline-dark" formaction="tel:314-330-1290">Call Us</button>
+            </form>
+            <form class="formbtn">
+              <button class="btn btn-lg btn-block btn-dark" formaction="mailto:ritcheytmj@att.net?subject=feedback">Email</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <h2 class="headingsH2">Gallery</h2>
     <br>
     <!--Carousel Wrapper-->
     <div id="carousel-with-lb" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="19000">
 
       <!--Controls-->
-      <!-- <div class="controls-top"> -->
-      <!-- <a class="carousel-control" href="#carousel-with-lb" data-slide="prev"><i class="fas fa-chevron-left"></i></a> -->
       <a class="carousel-control-prev" href="#carousel-with-lb" role="button" data-slide="prev">
-
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <!-- <a class="carousel-control" href="#carousel-with-lb" data-slide="next"><i class="fas fa-chevron-right"></i></a> -->
       <a class="carousel-control-next" href="#carousel-with-lb" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-      <!-- </div> -->
-
-      <!--/.Controls-->
 
       <!--Indicators-->
       <ol class="carousel-indicators">
@@ -97,33 +199,27 @@
         <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
         <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
       </ol>
-      <!--/.Indicators-->
 
       <!--Slides and lightbox-->
-
       <div class="carousel-inner mdb-lightbox" role="listbox">
         <div id="mdb-lightbox-ui"></div>
         <!--First slide-->
         <div class=" carousel-item active text-center">
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/e.jpg" data-size="1600x1067">
               <img src="images/e.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/g.jpg" data-size="1600x1067">
               <img src="images/g.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/n.jpg" data-size="1600x1067">
               <img src="images/n.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/p.jpg" data-size="1600x1067">
               <img src="images/p.jpg" class="img-fluid">
@@ -140,7 +236,6 @@
             </a>
           </figure>
         </div>
-        <!--/.First slide-->
 
         <!--Second slide-->
         <div class="carousel-item text-center">
@@ -150,19 +245,16 @@
               <img src="images/z7.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/m.jpg" data-size="1600x1067">
               <img src="images/m.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/k.jpg" data-size="1600x1067">
               <img src="images/k.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/h.jpg" data-size="1600x1067">
               <img src="images/h.jpg" class="img-fluid">
@@ -178,31 +270,25 @@
               <img src="images/b.jpg" class="img-fluid">
             </a>
           </figure>
-
         </div>
-        <!--/.Second slide-->
 
         <!--Third slide-->
         <div class="carousel-item text-center">
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/a.jpg" data-size="1600x1067">
               <img src="images/a.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/l.jpg" data-size="1600x1067">
               <img src="images/l.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/u.jpg" data-size="1600x1067">
               <img src="images/u.jpg" class="img-fluid">
             </a>
           </figure>
-
           <figure class="col-lg-3 d-md-inline-block">
             <a href="images/f.jpg" data-size="1600x1067">
               <img src="images/f.jpg" class="img-fluid">
@@ -218,14 +304,16 @@
               <img src="images/x.jpg" class="img-fluid">
             </a>
           </figure>
-
         </div>
       </div>
     </div>
   </section>
+
+
+  <!-- Amenities Section -->
   <section class="amenities-section">
     <div class="container-fluid">
-      <h2>Amenities</h2>
+      <h2 class="headingsH2">Amenities</h2>
       <div class="row">
         <div class="col-lg-4">
           <ul class="list-group">
@@ -248,6 +336,7 @@
             <li id="listHeader" class="list-group-item"><b>Outdoor</b></li>
             <li class="list-group-item">Balcony</li>
             <li class="list-group-item">Gas Grill</li>
+            <li class="list-group-item">Tennis Courts</li>
           </ul>
           <br>
           <ul class="list-group">
@@ -279,17 +368,19 @@
             <li class="list-group-item">Toaster</li>
             <li class="list-group-item">Cooking Utensils</li>
           </ul>
-          <br>
         </div>
       </div>
     </div>
   </section>
-  <hr>
-  <section class="spacesActivities-section">
+
+
+
+  <!-- Shared Spaces/Activities Section -->
+  <section class="sleepingConfig-section">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6">
-          <h2>Shared Space</h2>
+        <div class="spacesActivities-col col-lg-6">
+          <h2 class="headingsH2">Shared Space</h2>
           <ul>
             <li id="listHeader" class="list-group-item"><b>Complex Amenities</b></li>
             <li class="list-group-item">Shared Pool</li>
@@ -298,8 +389,8 @@
             <li class="list-group-item">Shared Tennis Court</li>
           </ul>
         </div>
-        <div class="col-lg-6">
-          <h2>Activities</h2>
+        <div class="spacesActivities-col col-lg-6">
+          <h2 class="headingsH2">Activities</h2>
           <li id="listHeader" class="list-group-item"><b>Beach & Water Sports</b></li>
           <li class="list-group-item">Water skiing</li>
           <li class="list-group-item">Water Tubing</li>
@@ -311,6 +402,76 @@
     </div>
   </section>
 
+
+  <!-- Sleeping Config Section -->
+  <section class="spacesActivities-section">
+    <div class="container-fluid">
+      <h2 class="headingsH2">Sleeping Configuration</h2>
+      <div class="row">
+        <div class="spacesActivities-col col-lg-6">
+          <ul>
+            <li id="listHeaderIncluded" class="list-group-item"><b>Included</b></li>
+            <li class="list-group-item"><i class="check fas fa-check"></i> &nbsp;Family/Kid Friendly</li>
+            <li class="list-group-item"><i class="check fas fa-check"></i> &nbsp;Children's Books & Toys</li>
+            <li class="list-group-item"><i class="check fas fa-check"></i> &nbsp;Crib/Pack 'n Play</li>
+            <li class="list-group-item"><i class="check fas fa-check"></i> &nbsp;Shared Tennis Court</li>
+          </ul>
+        </div>
+        <div class="spacesActivities-col col-lg-6">
+          <li id="listHeaderNotIncluded" class="list-group-item"><b>Not Included</b></li>
+          <li class="list-group-item"><i class="x fas fa-times"></i> &nbsp; No Pets Allowed</li>
+          <li class="list-group-item"><i class="x fas fa-times"></i> &nbsp; No Smoking Allowed</li>
+          <li class="list-group-item"><i class="x fas fa-times"></i> &nbsp; Not Handicap Accessible</li>
+          <li class="list-group-item"><i class="x fas fa-times"></i> &nbsp; Not Suitable for Events</li>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Calendar Section -->
+  <section class="calendar-section">
+    <h2 class="headingsH2">Availability</h2>
+    <iframe class="iframe" src="https://calendar.google.com/calendar/embed?src=v2mpoqsnqvb1crjvvbms9j7hr8%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
+    </iframe>
+  </section>
+
+
+
+  <!-- Policy Section -->
+  <section class="policy-section">
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h2 class="headingsH2">Policy and Rules</h2>
+        <div class="row">
+          <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+            <ul class="ov-lineItems">
+              <h3>Policy</h3>
+              <hr>
+              <li>Check In - 4pm / Check Out - 10am </li>
+              <li>Damage deposit will be refunded after cleaning people have notified me that everything is ok and nothing is missing. </li>
+              <li>If you cancel 30 days before arrival date you will lose the deposit</li>
+            </ul>
+          </div>
+          <div class="col-md-8 col-xs-12 col-sm-6 col-lg-6">
+            <ul class="ov-lineItems">
+              <h3>House Rules</h3>
+              <hr>
+              <li>This is a no smoking and no pet unit. Owners family members are highly allergic and if a animal is brought into the unit your damage fee will not be refunded. </li>
+              <li>Occupancy limit of 10. If this is broken there is no refund given. Osage Beach and The Knolls have strict policies on this. Quiet time is from 11pm until 7am.</li>
+              <li>Our fireplace is not to be used at all. No parties are allowed. If Knolls security is notified more then twice during your stay they will ask you to vacate.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="p-policy">*You will be given a code the day of arrival.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Map Section -->
   <section class="map-section">
     <div class="mapouter">
       <div class="gmap_canvas">
@@ -320,19 +481,16 @@
     </div>
   </section>
 
+
+
+  <!-- Footer Section -->
   <footer class="footer-section">
     <div class="bottom-container">
-      <!-- <i class="social-icon fab fa-facebook-f"></i>
-    <i class="social-icon fab fa-twitter"></i>
-    <i class="social-icon fab fa-instagram"></i>
-    <i class="social-icon fas fa-envelope"></i> -->
       <p class="copyright">©Copyright 2020 Ritchey Roost</p>
     </div>
   </footer>
 
   <script src="app.js" charset="utf-8"></script>
-
-</html>
 </body>
 
 </html>
