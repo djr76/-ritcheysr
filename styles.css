@@ -84,7 +84,6 @@ li{
 
 /* Navbar-Section */
 .navbar-section{
-  /* background-color: #9CC3D5FF; */
   margin-top: 7%;
 }
 
@@ -96,7 +95,6 @@ li{
 
 .navbar{
   background-color: #9CC3D5FF;
-  color: black;
 }
 
 .nav-link{
