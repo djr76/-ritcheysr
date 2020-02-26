@@ -175,9 +175,10 @@ li{
 
 /* Gallery-Section */
 .gallery-section {
+  /* background-color: #9CC3D5FF; */
   /* margin: 0px 40px; */
   /* padding: 40px 0px 60px; */
-  padding: 0% 10% 2% 10%;
+  padding: 0% 10% 0% 10%;
 }
 
 
