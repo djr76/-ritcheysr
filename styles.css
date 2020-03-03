@@ -191,8 +191,11 @@ li{
 .img-a{
   display: block;
   margin: 0 auto;
-  /* height: 810px;
-  width: 648px; */
+  height: 100%;
+  width: auto;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
 }
 
 
