@@ -10,6 +10,7 @@ p {
 .jumbotron{
   /* margin-top: 15px; */
   background-color: #9CC3D5FF;
+
 }
 
 /* .caroPic{
@@ -109,6 +110,7 @@ li{
 
 /* Overview-Section */
 .overview-section {
+  background-color: #9CC3D5FF;
   padding: 0% 10% 2% 10%;
   text-align: left;
 }
@@ -175,16 +177,28 @@ li{
 
 /* Gallery-Section */
 .gallery-section {
-  /* background-color: #9CC3D5FF; */
-  /* margin: 0px 40px; */
+  background-color: #9CC3D5FF;
+  margin: 0px 40px;
   /* padding: 40px 0px 60px; */
-  padding: 0% 10% 0% 10%;
+  padding: 2% 10% 2% 10%;
 }
 
 
-.img-fluid{
-  height: 50%;
-  width: 50%;
+.album-section{
+  padding-top: 2%;
+}
+
+.img-a{
+  display: block;
+  margin: 0 auto;
+  height: 810px;
+  width: 648px;
+}
+
+
+.img-f{
+  height: 720px;
+  width: 540px;
 }
 
 
