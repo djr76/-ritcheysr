@@ -39,6 +39,12 @@ h2 {
   margin-top: 2%;
 }
 
+.h2-review {
+  color: red;
+  font-family: 'Courgette';
+  margin-top: 2%;
+}
+
 
 .headingsH2{
   font-family: 'Courgette';
@@ -75,6 +81,14 @@ li{
   margin: 10px 0;
 }
 
+
+.saveBtn {
+  background-color: #FF0000;
+  color: black;
+  text-align: center;
+}
+
+
 /* Sections */
 /* Banner-Section */
 .banner-image {
@@ -84,6 +98,15 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+/* Navbar-Section */
+.save-section {
+  padding: 25px 100px 100px 100px;
+}
+
+.saveRow {
+  text-align: center;
 }
 
 
